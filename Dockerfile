@@ -1,12 +1,27 @@
-# Tags: latest, 0.20.0-debian-10-r14, 0.20.0, 0-debian-10, 0
+# Tags: latest, 0.20.0-debian-10-r19, 0.20.0, 0-debian-10, 0
 FROM bitnami/blackbox-exporter:latest
-FROM bitnami/blackbox-exporter:0.20.0-debian-10-r14
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r19
 FROM bitnami/blackbox-exporter:0.20.0
 FROM bitnami/blackbox-exporter:0-debian-10
 FROM bitnami/blackbox-exporter:0
 
 # Tags: _
 FROM bitnami/blackbox-exporter:_
+
+# Tags: 0.20.0-debian-10-r18
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r18
+
+# Tags: 0.20.0-debian-10-r17
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r17
+
+# Tags: 0.20.0-debian-10-r16
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r16
+
+# Tags: 0.20.0-debian-10-r15
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r15
+
+# Tags: 0.20.0-debian-10-r14
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r14
 
 # Tags: 0.20.0-debian-10-r13
 FROM bitnami/blackbox-exporter:0.20.0-debian-10-r13
@@ -83,18 +98,3 @@ FROM bitnami/blackbox-exporter:0.19.0-debian-10-r284
 
 # Tags: 0.19.0-debian-10-r283
 FROM bitnami/blackbox-exporter:0.19.0-debian-10-r283
-
-# Tags: 0.19.0-debian-10-r282
-FROM bitnami/blackbox-exporter:0.19.0-debian-10-r282
-
-# Tags: 0.19.0-debian-10-r281
-FROM bitnami/blackbox-exporter:0.19.0-debian-10-r281
-
-# Tags: 0.19.0-debian-10-r280
-FROM bitnami/blackbox-exporter:0.19.0-debian-10-r280
-
-# Tags: 0.19.0-debian-10-r279
-FROM bitnami/blackbox-exporter:0.19.0-debian-10-r279
-
-# Tags: 0.19.0-debian-10-r278
-FROM bitnami/blackbox-exporter:0.19.0-debian-10-r278
