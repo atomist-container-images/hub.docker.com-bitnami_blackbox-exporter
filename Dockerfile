@@ -1,12 +1,24 @@
-# Tags: latest, 0.20.0-debian-10-r42, 0.20.0, 0-debian-10, 0
+# Tags: latest, 0.20.0-debian-10-r46, 0.20.0, 0-debian-10, 0
 FROM bitnami/blackbox-exporter:latest
-FROM bitnami/blackbox-exporter:0.20.0-debian-10-r42
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r46
 FROM bitnami/blackbox-exporter:0.20.0
 FROM bitnami/blackbox-exporter:0-debian-10
 FROM bitnami/blackbox-exporter:0
 
 # Tags: _
 FROM bitnami/blackbox-exporter:_
+
+# Tags: 0.20.0-debian-10-r45
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r45
+
+# Tags: 0.20.0-debian-10-r44
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r44
+
+# Tags: 0.20.0-debian-10-r43
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r43
+
+# Tags: 0.20.0-debian-10-r42
+FROM bitnami/blackbox-exporter:0.20.0-debian-10-r42
 
 # Tags: 0.20.0-debian-10-r41
 FROM bitnami/blackbox-exporter:0.20.0-debian-10-r41
@@ -82,15 +94,3 @@ FROM bitnami/blackbox-exporter:0.20.0-debian-10-r18
 
 # Tags: 0.20.0-debian-10-r17
 FROM bitnami/blackbox-exporter:0.20.0-debian-10-r17
-
-# Tags: 0.20.0-debian-10-r16
-FROM bitnami/blackbox-exporter:0.20.0-debian-10-r16
-
-# Tags: 0.20.0-debian-10-r15
-FROM bitnami/blackbox-exporter:0.20.0-debian-10-r15
-
-# Tags: 0.20.0-debian-10-r14
-FROM bitnami/blackbox-exporter:0.20.0-debian-10-r14
-
-# Tags: 0.20.0-debian-10-r13
-FROM bitnami/blackbox-exporter:0.20.0-debian-10-r13
