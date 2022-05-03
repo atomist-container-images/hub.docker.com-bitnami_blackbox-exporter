@@ -91,6 +91,3 @@ FROM bitnami/blackbox-exporter:0.20.0-debian-10-r19
 
 # Tags: 0.20.0-debian-10-r18
 FROM bitnami/blackbox-exporter:0.20.0-debian-10-r18
-
-# Tags: 0.20.0-debian-10-r17
-FROM bitnami/blackbox-exporter:0.20.0-debian-10-r17
